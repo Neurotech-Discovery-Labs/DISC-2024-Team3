@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.2.5">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1920, 1080]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="$[-1,-1,-1]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="Team 3 Oddball no flashing (final!)" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial"/>
+    <Routine name="introduction">
+      <TextComponent name="text_instr">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_instr" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="You will now be beginning our experiment. A lab member will be nearby at all times if you'd like to stop or run into any difficulties. You will have 1 break as well." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <ImageComponent name="image_next">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="next.png" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image_next" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.6, -0.4)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <MouseComponent name="mouse">
+        <Param val="image_next" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="valid click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+      <CodeComponent name="code_2">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="# Define your full greyscale images list using raw strings for Windows paths:&amp;#10;greyImagesList = [&amp;#10;    r&quot;C:\Users\General Use\Desktop\NT Group 3 24-25\OASIS Neutrals\greyscale-007.jpg&quot;,&amp;#10;    r&quot;C:\Users\General Use\Desktop\NT Group 3 24-25\OASIS Neutrals\greyscale-015.jpg&quot;,&amp;#10;    r&quot;C:\Users\General Use\Desktop\NT Group 3 24-25\OASIS Neutrals\greyscale-136.jpg&quot;,&amp;#10;    r&quot;C:\Users\General Use\Desktop\NT Group 3 24-25\OASIS Neutrals\greyscale-051.jpg&quot;,&amp;#10;    r&quot;C:\Users\General Use\Desktop\NT Group 3 24-25\OASIS Neutrals\greyscale-142.jpg&quot;,&amp;#10;]&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="greyImagesList = [&quot;C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\OASIS Neutrals\\greyscale-007.jpg&quot;, &quot;C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\OASIS Neutrals\\greyscale-015.jpg&quot;, &quot;C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\OASIS Neutrals\\greyscale-136.jpg&quot;, &quot;C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\OASIS Neutrals\\greyscale-051.jpg&quot;, &quot;C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\OASIS Neutrals\\greyscale-142.jpg&quot;];&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="LSL_setup">
+        <Param val="from pylsl import StreamInfo, StreamOutlet&amp;#10;&amp;#10;# Create an LSL outlet for sending markers&amp;#10;info = StreamInfo(name='PsychoPyMarkers', type='Markers', channel_count=1, channel_format='float32', source_id='psycho_marker_stream')&amp;#10;outlet = StreamOutlet(info)&amp;#10;print(&quot;LSL outlet for PsychoPy markers initialized.&quot;)" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="import {StreamInfo, StreamOutlet} from 'pylsl';&amp;#10;var info, outlet;&amp;#10;info = new StreamInfo({&quot;name&quot;: &quot;PsychoPyMarkers&quot;, &quot;type&quot;: &quot;Markers&quot;, &quot;channel_count&quot;: 1, &quot;channel_format&quot;: &quot;float32&quot;, &quot;source_id&quot;: &quot;psycho_marker_stream&quot;});&amp;#10;outlet = new StreamOutlet(info);&amp;#10;console.log(&quot;LSL outlet for PsychoPy markers initialized.&quot;);&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="LSL_setup" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="grayscale_pictures">
+      <ImageComponent name="greyscale_pic">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$GreyImagePath" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="greyscale_pic" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1,1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="stimulus_pictures">
+      <ImageComponent name="stimulus_pic">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$OasisImagePath" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="stimulus_pic" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1, 1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="thanks">
+      <TextComponent name="text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="10.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="The experiment is now over. &amp;#10;&amp;#10;A lab member will be coming over to help you shortly. &amp;#10;&amp;#10;Thank you!" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="picture_delay">
+      <CodeComponent name="delay_randomization">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="import * as random from 'random';&amp;#10;var washout_duration;&amp;#10;washout_duration = random.uniform(0.3, 0.5);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="import random &amp;#10;&amp;#10;washout_duration = random.uniform(0.3, 0.5)&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="delay_randomization" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text_2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$washout_duration" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val=" " valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="practice">
+      <ImageComponent name="pracice_image">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$OddballPracticeImage" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="pracice_image" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="oddballroutine">
+      <CodeComponent name="code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;if ((_pj.in_es6(&quot;preloadedImages&quot;, globals()) &amp;&amp; _pj.in_es6(thisImage, preloadedImages))) {&amp;#10;    oddball_picture.image = preloadedImages[thisImage].image;&amp;#10;}&amp;#10;current_index = inner_index;&amp;#10;thisImage = trialImages[current_index];&amp;#10;psychoJS.experiment.addData(&quot;current_image&quot;, thisImage);&amp;#10;psychoJS.experiment.addData(&quot;current_index&quot;, current_index);&amp;#10;if ((current_index === oddball_index)) {&amp;#10;    image_number = ImageNumber;&amp;#10;    image_type = &quot;Oddball&quot;;&amp;#10;} else {&amp;#10;    image_number = current_index;&amp;#10;    image_type = &quot;Greyscale&quot;;&amp;#10;}&amp;#10;marker_value = Number.parseFloat((1 + (Number.parseFloat(image_number) / 1000)));&amp;#10;if ((! (&quot;flip_done&quot; in thisImage))) {&amp;#10;    oddball_picture.flip_done = false;&amp;#10;}&amp;#10;console.log(`Image: ${thisImage}, Type: ${image_type}, Marker Value: ${marker_value}`);&amp;#10;inner_index += 1;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# --- Combined Code Component in oddball routine ---&amp;#10;&amp;#10;&amp;#10;#anikaddedmarch26 &amp;#10;# This assumes you've already built a dictionary of preloaded images &amp;#10;# in an earlier routine (e.g., in your outerloop routine):&amp;#10;if 'preloadedImages' in globals() and thisImage in preloadedImages:&amp;#10;    # Override the image component's image attribute with the preloaded image’s file path.&amp;#10;    # Note: The preloadedImages[thisImage] is an ImageStim that was created earlier.&amp;#10;    # You can set the component’s image attribute directly.&amp;#10;    oddball_picture.image = preloadedImages[thisImage].image&amp;#10;&amp;#10;#normal&amp;#10;# Select the current inner loop trial index (0-based)&amp;#10;current_index = inner_index&amp;#10;&amp;#10;# Select the image from trialImages based on the current index:&amp;#10;thisImage = trialImages[current_index]&amp;#10;&amp;#10;# Log the image (e.g., to your data file) for later reference:&amp;#10;thisExp.addData('current_image', thisImage)&amp;#10;thisExp.addData('current_index', current_index)&amp;#10;&amp;#10;# Determine whether the current image is the oddball:&amp;#10;if current_index == oddball_index:&amp;#10;    # Use the oddball's number from your conditions file&amp;#10;    image_number = ImageNumber  # Must be loaded from your outer loop conditions file&amp;#10;    image_type = &quot;Oddball&quot;&amp;#10;else:&amp;#10;    # For greyscale images, use the current index (or another scheme)&amp;#10;    image_number = current_index&amp;#10;    image_type = &quot;Greyscale&quot;&amp;#10;&amp;#10;# Compute marker value (adjust formula as needed)&amp;#10;marker_value = float(1 + float(image_number) / 1000)&amp;#10;&amp;#10;# Flag to prevent pushing marker multiple times (use only within this routine)&amp;#10;if not hasattr(thisImage, 'flip_done'):&amp;#10;    oddball_picture.flip_done = False&amp;#10;&amp;#10;# Log the marker to the console (optional):&amp;#10;print(f&quot;Image: {thisImage}, Type: {image_type}, Marker Value: {marker_value}&quot;)&amp;#10;&amp;#10;# Increment the inner index for the next trial:&amp;#10;inner_index += 1&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="if oddball_picture.status == STARTED and not oddball_picture.flip_done:&amp;#10;    win.flip()  # Update the window (this happens at the end of the frame)&amp;#10;    outlet.push_sample([marker_value])  # Send the LSL marker after flip&amp;#10;    oddball_picture.flip_done = True  # Flag it to prevent resending the marker" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if (((oddball_picture.status === PsychoJS.Status.STARTED) &amp;&amp; (! oddball_picture.flip_done))) {&amp;#10;    psychoJS.window.flip();&amp;#10;    outlet.push_sample([marker_value]);&amp;#10;    oddball_picture.flip_done = true;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ImageComponent name="oddball_picture">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$thisImage" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="oddball_picture" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="outerloopcode">
+      <CodeComponent name="code_3">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="import * as random from 'random';&amp;#10;var inner_index, oddball_index, totalGreyscale, totalSlots, trialImages;&amp;#10;totalGreyscale = greyImagesList.length;&amp;#10;totalSlots = (totalGreyscale + 1);&amp;#10;oddball_index = random.randint(1, (totalSlots - 1));&amp;#10;trialImages = greyImagesList.copy();&amp;#10;trialImages.insert(oddball_index, ImagePath);&amp;#10;inner_index = 0;&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="import random&amp;#10;&amp;#10;# For using all 19 greyscale images:&amp;#10;totalGreyscale = len(greyImagesList)  # should be 19&amp;#10;totalSlots = totalGreyscale + 1       # 19 + 1 = 20&amp;#10;&amp;#10;# Randomly choose a slot for the oddball image (0-indexed)&amp;#10;oddball_index = random.randint(1, totalSlots - 1)&amp;#10;&amp;#10;# Create the list of images for this outer trial:&amp;#10;trialImages = greyImagesList.copy()  # Make a copy of the greyscale list&amp;#10;trialImages.insert(oddball_index, ImagePath)  # Insert oddball at random position&amp;#10;&amp;#10;# Initialize the counter for the inner loop:&amp;#10;inner_index = 0" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_3" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="halfway_break">
+      <TextComponent name="text_instr_2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_instr_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="You've completed half of the experiment! Click next when you're ready to continue." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <ImageComponent name="image_next_2">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="next.png" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image_next_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.6, -0.4)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+      <MouseComponent name="mouse_2">
+        <Param val="image_next" valType="list" updates="constant" name="clickable"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="valid click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="introduction"/>
+    <LoopInitiator loopType="TrialHandler" name="Stimulus_Trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 5.jpg', 'ImageNumber': 304, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 3.jpg', 'ImageNumber': 102, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 10.jpg', 'ImageNumber': 409, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 2.jpg', 'ImageNumber': 101, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 5.jpg', 'ImageNumber': 404, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 3.jpg', 'ImageNumber': 302, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 1.jpg', 'ImageNumber': 400, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 6.jpg', 'ImageNumber': 105, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 6.jpg', 'ImageNumber': 405, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 6.png', 'ImageNumber': 205, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 2.jpg', 'ImageNumber': 301, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 1.jpg', 'ImageNumber': 100, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 8.jpg', 'ImageNumber': 407, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 8.jpg', 'ImageNumber': 107, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 8.png', 'ImageNumber': 207, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 2.jpg', 'ImageNumber': 401, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 9.png', 'ImageNumber': 208, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 7.jpg', 'ImageNumber': 106, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 4.jpg', 'ImageNumber': 303, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 10.png', 'ImageNumber': 209, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 7.jpg', 'ImageNumber': 306, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 3.jpg', 'ImageNumber': 402, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 7.png', 'ImageNumber': 206, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 9.jpg', 'ImageNumber': 108, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 3.png', 'ImageNumber': 202, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 9.jpg', 'ImageNumber': 408, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 10.jpg', 'ImageNumber': 309, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 4.png', 'ImageNumber': 203, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 10.jpg', 'ImageNumber': 109, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 2.png', 'ImageNumber': 201, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 1.jpg', 'ImageNumber': 300, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 1.png', 'ImageNumber': 200, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 9.jpg', 'ImageNumber': 308, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 5.jpg', 'ImageNumber': 104, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 5.png', 'ImageNumber': 204, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 7.jpg', 'ImageNumber': 406, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 4.jpg', 'ImageNumber': 103, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 6.jpg', 'ImageNumber': 305, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 4.jpg', 'ImageNumber': 403, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 8.jpg', 'ImageNumber': 307, 'Condition': 'Pouch', 'Type': 'Cue'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="ODDBALL Picture Set/Oddball Target Paths.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="3" valType="num"/>
+      <Param name="name" updates="None" val="Stimulus_Trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="outerloopcode"/>
+    <LoopInitiator loopType="TrialHandler" name="greyscale_loop">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="6" valType="num"/>
+      <Param name="name" updates="None" val="greyscale_loop" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="oddballroutine"/>
+    <Routine name="picture_delay"/>
+    <LoopTerminator name="greyscale_loop"/>
+    <LoopTerminator name="Stimulus_Trials"/>
+    <Routine name="halfway_break"/>
+    <LoopInitiator loopType="TrialHandler" name="stimulus_loop_repeat">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 5.jpg', 'ImageNumber': 304, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 3.jpg', 'ImageNumber': 102, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 10.jpg', 'ImageNumber': 409, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 2.jpg', 'ImageNumber': 101, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 5.jpg', 'ImageNumber': 404, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 3.jpg', 'ImageNumber': 302, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 1.jpg', 'ImageNumber': 400, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 6.jpg', 'ImageNumber': 105, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 6.jpg', 'ImageNumber': 405, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 6.png', 'ImageNumber': 205, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 2.jpg', 'ImageNumber': 301, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 1.jpg', 'ImageNumber': 100, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 8.jpg', 'ImageNumber': 407, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 8.jpg', 'ImageNumber': 107, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 8.png', 'ImageNumber': 207, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 2.jpg', 'ImageNumber': 401, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 9.png', 'ImageNumber': 208, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 7.jpg', 'ImageNumber': 106, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 4.jpg', 'ImageNumber': 303, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 10.png', 'ImageNumber': 209, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 7.jpg', 'ImageNumber': 306, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 3.jpg', 'ImageNumber': 402, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 7.png', 'ImageNumber': 206, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 9.jpg', 'ImageNumber': 108, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 3.png', 'ImageNumber': 202, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 9.jpg', 'ImageNumber': 408, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 10.jpg', 'ImageNumber': 309, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 4.png', 'ImageNumber': 203, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 10.jpg', 'ImageNumber': 109, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 2.png', 'ImageNumber': 201, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 1.jpg', 'ImageNumber': 300, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 1.png', 'ImageNumber': 200, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 9.jpg', 'ImageNumber': 308, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 5.jpg', 'ImageNumber': 104, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Neutral\\Neutral 5.png', 'ImageNumber': 204, 'Condition': 'Neutral', 'Type': 'Neutral'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 7.jpg', 'ImageNumber': 406, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Cigarette\\Cigarette 4.jpg', 'ImageNumber': 103, 'Condition': 'Cigarette', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 6.jpg', 'ImageNumber': 305, 'Condition': 'Pouch', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Vape\\Vape 4.jpg', 'ImageNumber': 403, 'Condition': 'Vape', 'Type': 'Cue'}, {'ImagePath': 'C:\\Users\\General Use\\Desktop\\NT Group 3 24-25\\ODDBALL Picture Set\\Pouch\\Pouch 8.jpg', 'ImageNumber': 307, 'Condition': 'Pouch', 'Type': 'Cue'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="ODDBALL Picture Set/Oddball Target Paths.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="2" valType="num"/>
+      <Param name="name" updates="None" val="stimulus_loop_repeat" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="outerloopcode"/>
+    <LoopInitiator loopType="TrialHandler" name="greyscale_loop_repeat">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="6" valType="num"/>
+      <Param name="name" updates="None" val="greyscale_loop_repeat" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="oddballroutine"/>
+    <Routine name="picture_delay"/>
+    <LoopTerminator name="greyscale_loop_repeat"/>
+    <LoopTerminator name="stimulus_loop_repeat"/>
+    <Routine name="thanks"/>
+  </Flow>
+</PsychoPy2experiment>
